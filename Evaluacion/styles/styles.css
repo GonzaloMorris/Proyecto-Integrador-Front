@@ -1,0 +1,429 @@
+*{  
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;  
+    width: 1200px;
+    background-image: url("/img/fondo.svg");
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    /* height: 100%; */    
+    font-size: 16px;
+    padding: 20px;    
+    }
+
+
+button {
+    background: #F3603B;
+    border-color: #F3603B;
+    height: 44px;
+    width: 134px;
+    left: 1140.5360107421875px;
+    top: 65px;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    width: 1200px;
+    color: #242E52;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    order: 2;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+.navlis {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+a:active {
+    border: red;
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+
+.burger {
+    display: none;
+}
+
+h1 ,h2 ,h4 {
+    color: #232851;
+}
+
+.container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-1 {
+    width: 27%;
+    font-weight: 500;
+}
+
+.item-2 {
+    padding-right: 10px;
+}
+
+.grafico {
+    width: 360px;
+}
+
+.container2 {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-3 {
+    width: 100%;
+}
+
+.item-4 {
+    padding-left: 115px;
+}
+
+ol {
+    /* list-style-type: none; */
+    color: #F3603B;
+}
+
+p {
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    padding: 40px;
+}
+
+.puntos {
+    display: none;
+}
+
+.avatar10 {
+    width: 65px;
+    padding-left: 20px;
+}
+
+.avatar20 {
+    width: 65px;
+    padding-left: 20px;
+}
+
+.avatar30 {
+    width: 65px;
+    padding-left: 20px;
+}
+
+footer {
+    padding-top: 80px;
+}
+
+.footer01 {
+    background-color: #F3603B;
+    display: flex;
+    justify-content: space-around;
+}
+
+.simplify {
+    width: 250px;
+    color: white;
+    padding-top: 15px;
+    text-align-last: left;
+}
+
+.botonfinal {
+    padding: 35px;
+}
+
+.botonfooter {
+    background-color: white;
+    border: white;
+    color: #F3603B;
+}
+
+.footer02 {
+    background-color: #1E1E26;
+    display: flex;
+}
+
+.logoredes {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 30px; */
+    padding-left: 150px;
+    padding-top: 60px;
+}
+
+.redes {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.menufooter {
+    display: flex;
+}
+
+.menu1 {
+    font-size: 10px;
+    text-align-last: left;
+    padding-left: 130px;
+    padding-top: 40px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu2 {
+    width: 250px;
+    font-size: 10px;
+    text-align-last: left;
+    padding-left: 130px;
+    padding-top: 40px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* footer {
+    display: flex;
+} */
+
+.footerform {
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 120px;
+    /* padding-right: 105px; */
+}
+
+form{
+	padding:11px;
+    padding-top: 3px;
+	border-radius:10px;
+}
+
+.go {
+    width: 56px;
+}
+
+.label {
+    color: #F3603B;
+    font-size: 10px;
+}
+
+form label{
+	width:190px;
+    color: #F3603B;
+    font-size: 11px;
+}
+
+form input[type="email"]{
+	border:1px solid #F3603B;
+    border-radius: 17px;
+	background-color:#f6f6f6;
+    display:inline-block;
+    width: 170px;
+    height: 35px;
+}
+
+h6 {
+    color: #8C8C94;
+    display: flex;
+    padding-top: 120px;
+}
+
+
+/* Responsive */
+
+@media (max-width:375px) {
+
+    header {
+        width: 375px;
+        padding-top: 55px;
+        display: flex;
+    }
+
+    .but {
+        display: none;
+    } 
+
+    .navlis {
+        display: none;
+    }
+
+    .nav {
+        width: 500px;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+    }
+
+    .burger {
+        display: flex;
+        width: 25px;
+        padding-bottom: 8px;
+    }
+
+    body {
+        width: 345px;
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        order: 0;
+    }
+
+    .item-1 {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .item-2 {
+        width: 340px;
+        padding-left: 0px;
+        order: 1; 
+    }
+
+    .container2 {
+        width: 375px;
+        padding: 0;
+        flex-direction: column;
+        font-style: normal;
+    }
+
+    .item-3 {
+        width: 340px;
+        text-align: center;
+        padding: 0;
+        margin-top: 70px;
+        line-height: 30px;
+    }
+
+    h4 {
+        background-color: #f8d8cf;
+        border-radius: 30px;
+        padding: 10px;
+        width: 332px;
+    }
+
+    .item-4 {
+        width: 375px;
+        padding-left: 0px;
+        margin-top: 35px;
+        line-height: 30px;
+    }
+
+    .container3 {
+        flex-direction: column;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .avatar-1 {
+        display: none;
+    }
+
+    .avatar2 {
+        display: none;
+    }
+
+    footer {
+        width: 375px;
+    }
+
+    .footer01 {
+        flex-direction: column;
+        padding-bottom: 30px;
+        width: 375px;
+    }
+
+    .simplify {
+        width: 375px;
+        padding-top: 40px;
+        padding-left: 25px;
+    }
+
+    .footer02 {
+        width: 375px;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .footerform {
+        width: 375px;
+        padding-top: 20px;
+        padding-left: 20px;
+}
+
+    .menu1 {
+        padding-top: 10px;
+        padding-left: 80px;
+        margin: 0;
+}
+
+    .menu2 {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 100px;
+}
+
+    .redes {
+        order: 0;
+}
+
+    .logoredes {
+        width: 375px;
+        order: 0;
+        padding: 0;
+}
+
+    .logofooter {
+        width: 375px;
+        flex-direction: column;
+        padding: 0;
+        order: 1;
+}
+
+    h6 {
+        display: none;
+}
+
+    label {
+        display: none;
+}
+
+}
